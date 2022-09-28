@@ -1,0 +1,6 @@
+color = input ("please type your favorite color:")
+print("your have chosen the color")
+print(color)
+season = input ("What is your favorite season?")
+print("your favorite season is:")
+print(season)
