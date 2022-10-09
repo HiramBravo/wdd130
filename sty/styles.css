@@ -1,0 +1,17 @@
+h1:hover {
+    text-align: center;
+    color: white;
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+body{
+    background-color:rgb(231, 71, 191)
+
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
