@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+body {
+    margin: 0%;
+}
+div {
+    background: gray;
+}
+.circle {
+    display: flex;
+    vertical-align: top;
+    padding: 5px 1px;
+    width: 50%;
+    height: 50%;
+}
+footer {
+    background-color: gray;
+    color: gray;
+    margin: 0%;
+    width: 100%;
+
+}
+.desk {
+    display: inline;
+    border-radius: 50%;
+    border: 8px solid rgb(75, 75, 75);
+}
+.graphic {
+    display: inline;
+    border-radius: 50%;
+    border: 8px solid rgb(75, 75, 75);
+}
+.person {
+    display: inline;
+    border-radius: 50%;
+    border: 8px solid rgb(75, 75, 75);
+}

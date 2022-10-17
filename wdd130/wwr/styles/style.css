@@ -7,21 +7,36 @@ p {
 #content {
     margin: 0 auto;
 }
+nav {
+    background-color: chartreuse;
+    text-align: center;
+    padding: 25px;
+}
 nav a:hover {
     text-align: center;
 }
 nav a {
     background-color: white;
+    text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
 }
 .msg h2 {
     background-color: cornflowerblue;
+    line-height: 1.5em;
+}
+h2 {
+    margin: 0%;
 }
 .msg p {
     background-color: chartreuse;
+    padding-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 #hero-msg h4 {
     text-align: center;
@@ -35,13 +50,20 @@ h4 {
 main section {
     text-align:center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
-    height: 725px;
+    height: 125px;
     background-color: rgb(168, 105, 228);
     text-align:center;
 }
 body {
-    background-color: white
+    background-color: white;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: white;
@@ -49,10 +71,20 @@ header {
 .book {
     background-color: white;
     text-decoration: none;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 .join {
     background-color: aqua;
     text-decoration: none;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
 }
 .book:hover {
     background-color: black;
@@ -62,9 +94,15 @@ header {
 }
 .msg {
     background-color: chartreuse;
+    padding: 55px;
+    line-height: 1.5em;
 }
 footer {
-    background-color:dimgray
+    background-color:dimgray;
+    text-align: center;
+    height: 90px;
+    padding: 15px 80px;
+    margin-top: 200px;
 }
 footer a {
     background-color: white;
@@ -75,7 +113,7 @@ footer a:hover {
     color:indigo
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align:center;
 }
 footer p a:hover {
@@ -83,10 +121,33 @@ footer p a:hover {
 }
 .home-title {
     background-color: aqua;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
 }
 .logo {
     width: 180px;
+    padding-top: 5px;
+}
+#logo_link {
+    padding-top: 50px;
+}
+footer .social img {
+    padding-top: 5px;
 }
 .icon {
     width: 100px;
+    padding-top: 10px;
+}
+.rivers-card {
+    margin: 150px 0;
+}
+.camping-card {
+    margin: 150px 0;
+}
+.rapids-card {
+    margin: 150px 0;
+}
+.card-img {
+    border: 10px solid gold;
 }
